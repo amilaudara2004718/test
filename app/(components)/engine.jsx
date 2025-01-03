@@ -13,7 +13,7 @@ function Engine() {
     setIsLoading(true);
     try {
       // Make API request here (simulated with a timeout for demonstration)
-      const response = await fetch(`/api/scrape?url=${encodeURIComponent(query)}`);
+      const response = await fetch(`https://main.d2tkog8127k42p.amplifyapp.com/api/scrape?url=${encodeURIComponent(query)}`);
       const data = await response.json();
 
 
